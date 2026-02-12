@@ -284,7 +284,7 @@ DELETE /api/admin/users/:id     - Удалить пользователя
 ## 👥 Команда разработки
 
 - **Chingiz** - Authentication & User Management
-- **Kaysar** - Task Management & Validation  
+- **Kaisar** - Task Management & Validation  
 - **Sultan** - RBAC, Email Service & Deployment
 
 ## 📄 Лицензия
