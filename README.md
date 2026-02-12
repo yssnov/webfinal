@@ -5,7 +5,7 @@ A comprehensive task management REST API built with Node.js, Express, MongoDB, a
 ## Team
 
 - **Chingiz** - Authentication & User Management
-- **Kaysar** - Task Management & Validation
+- **Kaisar** - Task Management & Validation
 - **Sultan** - RBAC, Email Service & Deployment
 
 ## Features
