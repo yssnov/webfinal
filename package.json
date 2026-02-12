@@ -1,0 +1,44 @@
+{
+  "name": "taskmaster",
+  "version": "1.0.0",
+  "description": "TaskMaster - Task Management System with RBAC and Email Notifications",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd frontend && npm run dev",
+    "install-all": "npm install && cd frontend && npm install",
+    "dev-all": "concurrently \"npm run dev\" \"npm run client\""
+  },
+  "keywords": [
+    "task-manager",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "email-notifications",
+    "rbac"
+  ],
+  "author": "Chingiz, Kaysar, Sultan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "joi": "^17.11.0",
+    "nodemailer": "^6.9.7",
+    "express-rate-limit": "^7.1.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
